@@ -1,4 +1,4 @@
-# Concrete Pots
+# Concrete Pot
 
 ## Contributors
 
