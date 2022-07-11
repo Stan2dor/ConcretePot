@@ -18,7 +18,7 @@ function ContactUs() {
         }}>
         <HomeIcon color='primary' />
       </Box>{" "}
-      <h3 style={{ size: 24 }}>I Am h3 Contact us</h3>
+      <h3 style={{ size: 24, color: "#c62828" }}>I Am h3 Contact us</h3>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever
