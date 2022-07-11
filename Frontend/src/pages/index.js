@@ -1,35 +1,45 @@
-import * as React from "react";
-// import { Provider, useSelector, useDispatch } from "react-redux";
+import React from "react";
+// import ReactDOM from "react-dom";
+// import { useSelector, useDispatch } from "react-redux";
+import App from "../App";
+// import { configureStore } from "@reduxjs/toolkit";
+// import allReducers from "../reducers";
+// import Footer from "../common/footer";
+// import { increment, decrement } from "../actions";
+
 // import { Provider } from "react-redux";
-
-import { increment } from "../actions";
-import { decrement } from "../actions";
 // import "../style/index.css";
-import Header from "./common/header";
-import Footer from "./common/footer";
-import Home from "./home";
-import Contact from "./contact";
 
-function App() {
+// const store = configureStore({
+// reducer: allReducers,
+// window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+// });
+// const store = configureStore({ reducer: allReducers });
+function Home() {
   // const potCounter = useSelector((state) => state.potCounter);
   // const isLogged = useSelector((state) => state.isLogeed);
   // const dispatch = useDispatch();
-  // const store = createStore(rootReducer);
-
+  // <Provider>
   return (
-    // <Provider>
-    <div className='app-container'>
-      <Header />
-      {/* <h1>Counter: {potCounter} </h1> */}
-      <button onClick={() => dispatch(increment())}>+</button>
-      <button onClick={() => dispatch(decrement())}>-</button>
+    <div className='App'>
+      <h1>hello</h1>
+      <App />
+      {/* <h1>Counter:{potCounter}</h1> */}
+      {/* <button onClick={() => dispatch(increment())}>+</button> */}
+      {/* <button onClick={() => dispatch(decrement())}>-</button> */}
       {/* {isLogged ? <h3> Valuables here i should not see</h3> : ""} */}
-      <Home />
-      <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
-    // </Provider>
   );
+  // </Provider>;
 }
 
-export default App;
+export default Home;
+// if (typeof window !== "undefined") {
+//   ReactDOM.render(
+//     // <Provider store={store}>
+//     <App />,
+//     document.getElementById("root")
+//     // </Provider>
+//   );
+// }
