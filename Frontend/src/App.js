@@ -1,6 +1,6 @@
 import React from "react";
 // import { useSelector, useDispatch } from "react-redux";
-// import "./index.css";
+// import "./styles/global.css";
 import Navbar from "./common/navbar";
 import Header from "./common/header";
 import Footer from "./common/footer";

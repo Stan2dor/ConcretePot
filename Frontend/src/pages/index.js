@@ -4,8 +4,8 @@ import ReactDOM from "react-dom/client";
 import App from "../App";
 // import { configureStore } from "@reduxjs/toolkit";
 // import allReducers from "../reducers";
-import { Provider } from "react-redux";
-// import "../style/index.css";
+// import { Provider } from "react-redux";
+// import myApp from "../pages/_app";
 
 // const store = configureStore({
 // reducer: allReducers,
