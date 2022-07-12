@@ -1,6 +1,7 @@
 import React from "react";
 // import { useSelector, useDispatch } from "react-redux";
 // import "./index.css";
+import Navbar from "./common/navbar";
 import Header from "./common/header";
 import Footer from "./common/footer";
 import Home from "./pages/home";
@@ -13,6 +14,7 @@ function App() {
   // const dispatch = useDispatch();
   return (
     <div className='App'>
+      <Navbar />
       <Header />
       {/* <h1>Counter:{potCounter}</h1> */}
       <button onClick={() => dispatch(increment())}>+</button>
